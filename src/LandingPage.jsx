@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
 import './landingpage.css';
 
 class LandingPage extends Component {
     render() {
         return (
             <>
-            <div className='headline'>
-              <Navbar />
+            <div className='title'>
               <h1>Crafting solutions < br/> for complex < br/> problems</h1>
             </div>
             <div>

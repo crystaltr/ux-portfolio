@@ -1,8 +1,8 @@
 
 .rectangle {
     height: 40px;
-    width: 160px;
-    background-color: #DA627D
+    width: 200px;
+    background-color: #ED9AB6;
 }
 
 .brandline {
@@ -17,7 +17,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding-top: 1rem;
     font-size: 1rem;
 }
 
@@ -28,6 +28,7 @@ ul a{
 }
 
 ul a:hover{
-    color: #DA627D;
+    color: #ED9AB6;
     -webkit-transition: 200ms;
 }
+

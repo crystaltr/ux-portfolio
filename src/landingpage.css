@@ -1,6 +1,9 @@
-.headline h1 {
+
+.title h1 {
   font-family: "Archivo Black";
   text-align: left;
+  margin-left: auto;
   color: #454545;
   padding: 2rem;
+  font-size: 64px;
 }

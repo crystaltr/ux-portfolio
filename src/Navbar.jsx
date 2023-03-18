@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,8 +10,8 @@ const Navbar = () => {
         <header>
              <nav>
                 <ul>
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
+                    <NavLink to="/" activeStyle={{ color: '#DA627D'}}>Home</NavLink>
+                    <NavLink to="/about">About</NavLink>
                     <a href="https://www.linkedin.com/in/crystal-truong-2334a2175/" target="_blank">Linkedin</a>
                 </ul>
             </nav>
