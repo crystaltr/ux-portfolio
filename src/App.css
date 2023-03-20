@@ -6,7 +6,9 @@
   gap: 2rem;
   grid-template-columns: 1fr;
   font-family: 'DM Sans';
+  color: #454545;
 }
+
 
 
 footer {

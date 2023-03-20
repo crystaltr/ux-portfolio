@@ -28,12 +28,12 @@ function CaseOne() {
                         </div>
                     </div>
                 </div>
-                <div class='btn-container'>
-                <button onClick={() => {
+                <div class='btn-container' >
+                <button style={{borderStyle: 'hidden'}} onClick={() => {
                     setShowContentOne(true);
                     setShowContentTwo(false);
                 }}>Default</button>
-                <button onClick={() => {
+                <button style={{borderStyle: 'hidden'}} onClick={() => {
                     setShowContentOne(false);
                     setShowContentTwo(true);
                 }}>TDLR</button>
@@ -66,7 +66,23 @@ function CaseOne() {
 
                 {showContentTwo && (
                 <div class='tdlr-container'>
-                     // Contents of other container
+                     <h2>Discovery</h2>
+                        <p>Competitor analysis was done where we highlighted feasibility and how we could utilise the components in our design system to ensure a seamless experience. </p>
+                            <img src={comp1} alt="comp1" class='cimg'/>
+                <h2>Design iterations</h2>
+                <p>
+                Based on the analysis I was able to identify common components companies used to communicate the feature. < br/>
+                The key components used: <br/><br/>
+                - A banner <br/>
+                - Dual buttons <br/><br/>
+                The following images show the iterations of designs
+                </p>
+                <img src={iter1} alt="iter1" class='iimg'/>
+                <h2>Handover</h2>
+                <p>
+                    The final step is the handover process where I hand over the designs to the developers to implement.
+                </p>
+                <img src={hand1} alt="hand1" class='himg'/>
                 </div>)}
             </div>
         )
