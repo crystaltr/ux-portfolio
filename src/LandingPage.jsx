@@ -1,21 +1,41 @@
 import React, { Component } from 'react';
 import './landingpage.css';
+import retry from './retry.png';
+import payment from './payment.png';
 
 class LandingPage extends Component {
     render() {
         return (
             <>
             <div className='title'>
-              <h1>Crafting solutions < br/> for complex < br/> problems</h1>
+              <h1>Intentional designs for < br/> everyday use</h1>
             </div>
-            <div>
-                <h1>Case study 1</h1>
-                <p>Aut numquam tempora ab officia aliquam sit voluptatem dolore sit quasi minus. In dolores laudantium
-                 ea quia quod et vero sint quo delen< br/>
-                iti explicabo sit debitis fugit. Non Quis quam et quia provident hic illo quis ab dolore excepturi.</p>
+            <div class="rect-container">
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+                <div class="rect-item"></div>
+            </div>
+            <div className='p1-grid'>
+                <img src={retry} alt="retry" class='img1'/>
+                <div className='p1-description'>
+                <h1>Retry feature</h1>
+                <p>Giving users the ability to retry payments within the portal</p>
+                </div>
+            </div>
+
+            <div className='p1-grid'>
+                <div className='p2-description'>
+                    <h1>Payment redesign</h1>
+                    <p>Giving users the ability to retry payments within the portal</p>
+                </div>
+                <img src={payment} alt="payment" class='img2'/>
             </div>
             </>
-  
         )
     }
 }

@@ -1,0 +1,12 @@
+.proj-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.overview-container {
+    width: 1400px;
+    height: 200px;
+    border-radius: 1rem;
+    border: 0.1rem solid #ED9AB6;
+    padding: 3rem;
+}

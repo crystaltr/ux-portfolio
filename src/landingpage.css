@@ -1,9 +1,50 @@
 
 .title h1 {
+  display: grid;
+  place-items: center;
   font-family: "Archivo Black";
   text-align: left;
-  margin-left: auto;
   color: #454545;
-  padding: 2rem;
   font-size: 64px;
+}
+
+.rect-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5rem;
+
+}
+
+.rect-item {
+  height: 40px;
+  width: 40px;
+  background-color:  #ED9AB6;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.p1-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 2rem;
+}
+
+.img1 {
+  width: 50%;
+  margin-left: auto;
+}
+
+.p1-description {
+  margin-right: auto;
+}
+
+.img2 {
+  width: 50%;
+  margin-right: auto;
+}
+
+.p2-description {
+  margin-left: auto;
 }
