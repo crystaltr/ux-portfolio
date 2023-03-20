@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './landingpage.css';
 import retry from './retry.png';
 import payment from './payment.png';
+import chev from './chev.png';
 
 class LandingPage extends Component {
     render() {
@@ -25,6 +27,7 @@ class LandingPage extends Component {
                 <div className='p1-description'>
                 <h1>Retry feature</h1>
                 <p>Giving users the ability to retry payments within the portal</p>
+                <Link to="/case1" className="p1-btn"><b>View project</b> <img src={chev} width="25" height="25"/></Link>
                 </div>
             </div>
 
