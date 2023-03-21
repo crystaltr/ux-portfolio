@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4303d70.css",
-    "main.js": "/static/js/main.36de7df7.js",
-    "static/media/iter1.png": "/static/media/iter1.0c76c5a01a0b1642017a.png",
-    "static/media/payment.png": "/static/media/payment.dcdae349d1d50001772a.png",
-    "static/media/retry.png": "/static/media/retry.df38d58465f978c83756.png",
-    "static/media/hand1.png": "/static/media/hand1.3d4adfe302ceafa864cf.png",
-    "static/media/comp1.png": "/static/media/comp1.5dca7d76d45af5061d57.png",
-    "index.html": "/index.html",
-    "main.c4303d70.css.map": "/static/css/main.c4303d70.css.map",
-    "main.36de7df7.js.map": "/static/js/main.36de7df7.js.map"
+    "main.css": "/ux-portfolio/static/css/main.c4303d70.css",
+    "main.js": "/ux-portfolio/static/js/main.7c1a49bc.js",
+    "static/media/iter1.png": "/ux-portfolio/static/media/iter1.0c76c5a01a0b1642017a.png",
+    "static/media/payment.png": "/ux-portfolio/static/media/payment.dcdae349d1d50001772a.png",
+    "static/media/retry.png": "/ux-portfolio/static/media/retry.df38d58465f978c83756.png",
+    "static/media/hand1.png": "/ux-portfolio/static/media/hand1.3d4adfe302ceafa864cf.png",
+    "static/media/comp1.png": "/ux-portfolio/static/media/comp1.5dca7d76d45af5061d57.png",
+    "index.html": "/ux-portfolio/index.html",
+    "main.c4303d70.css.map": "/ux-portfolio/static/css/main.c4303d70.css.map",
+    "main.7c1a49bc.js.map": "/ux-portfolio/static/js/main.7c1a49bc.js.map"
   },
   "entrypoints": [
     "static/css/main.c4303d70.css",
-    "static/js/main.36de7df7.js"
+    "static/js/main.7c1a49bc.js"
   ]
 }
