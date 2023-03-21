@@ -29,6 +29,7 @@
   grid-template-columns: 1fr 1fr;
   place-items: center;
   gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 .img1 {

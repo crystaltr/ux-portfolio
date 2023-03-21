@@ -1,21 +1,9 @@
+
 .App-grid {
   display: grid;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
   gap: 2rem;
   grid-template-columns: 1fr;
   font-family: 'DM Sans';
   color: #454545;
-}
-
-
-
-footer {
-  display: grid;
-  grid-template-columns: 1fr;
-  font-family: 'DM Sans';
-  background-color: #F6F0DE;
-  text-align: center;
-  padding: 1rem;
+ 
 }

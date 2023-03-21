@@ -3,7 +3,6 @@ import About from './About';
 import CaseOne from './CaseOne';
 import CaseTwo from './CaseTwo';
 import CaseThree from './CaseThree';
-import Footer from './Footer';
 import Navbar from './Navbar';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
@@ -19,7 +18,6 @@ function App() {
         <Route path="/case2" element={<CaseTwo />} />
         <Route path="/case3" element={<CaseThree />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

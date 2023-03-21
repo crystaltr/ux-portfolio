@@ -10,7 +10,7 @@
     padding: 1.5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1400px;
+    width: 1200px;
     height: auto;
     border-radius: 1rem;
     border: 0.1rem solid #ed9ab6;
